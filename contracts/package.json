@@ -1,0 +1,23 @@
+{
+  "name": "privacy-pools-institutional-contracts",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "forge:test": "forge test",
+    "export": "hardhat compile && node scripts/export-abi.js",
+    "clean": "rm -rf artifacts cache exports"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.1.0",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@types/node": "^22.10.10",
+    "ethers": "^6.13.2",
+    "hardhat": "^2.22.0",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5.7.3"
+  }
+}

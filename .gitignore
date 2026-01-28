@@ -1,0 +1,20 @@
+# deps
+contracts/node_modules/
+
+# hardhat
+contracts/artifacts/
+contracts/cache/
+contracts/coverage/
+contracts/coverage.json
+
+# foundry
+contracts/out/
+contracts/out-via-ir/
+contracts/broadcast/
+
+# local exports
+contracts/exports/
+
+# misc
+*.log
+.env
